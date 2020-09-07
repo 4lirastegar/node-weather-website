@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit',(e)=>{
             const locationName=JSON.stringify(data.name)
             const temp=JSON.stringify(data.temp)
             const des=JSON.stringify(data.desc)
-            messageTwo.textContent='Location: '+locationName + 'Forecast: ' +des+'\n temprature: '+temp
+            messageTwo.textContent='Location: '+locationName + '***Forecast: ' +des+'\n ***Temprature: '+temp
          }
     })
 })
